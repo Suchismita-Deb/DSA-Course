@@ -26,6 +26,7 @@ public class StringBasics {
     System.out.println(s.equals(s5));
     System.out.println(s.equalsIgnoreCase(s5));
     System.out.println(s.compareToIgnoreCase(s5));
+    System.out.println();
 
     // Integer.parseInt(str) // String to integer.
         // Integer.toString(1020) // Integer to String.
