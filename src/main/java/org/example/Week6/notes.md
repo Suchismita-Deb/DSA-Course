@@ -14,7 +14,7 @@ Topic
 When we do any program time complexity does not signofies the time taken for the program to run as it depends on the os, language and the input given.
 
 - Time complexity is measured as the number of instruction performed. 
-- Example. Sum of first 5 natural number. One way of doing it is `$\frac{n*(n+1)}{2}$` anotehr wauis using for loop and adding the value. 
+- Example. Sum of first 5 natural number. One way of doing it is $\frac{n*(n+1)}{2}$ anotehr wauis using for loop and adding the value. 
 - For n=5 the formula will work for one time and the loop will work for 5 time. So the first one is optimized. With for loop with more value of n time will grow more O(n) mean linear time complexity.
 - The formula method is O(1) constant time.
 
@@ -38,8 +38,9 @@ When we create and array of size 10 then when we insert the 11 element then the 
 
 When there is a cap size we just insert element O(1) else it is $2^{i}$
 
-{1+1+1+1+1+...1} + 3($2^{0} + 2^{1} + 2^{2} + 2^{3}...$)
+{1+1+1+1+1+...1} + 3*($2^{0} + 2^{1} + 2^{2} + 2^{3}...$)
 
 The 3() val <= logN. 1+1...+1 <=N
 
-= N + 3($2^{0}$ * $\frac{2^{logN}-1}{2-1}$)
+= N + 3($\frac{$2^{0}$ * 2^{logN}-1}{2-1}$)
+
